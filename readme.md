@@ -8,7 +8,7 @@ npm install @lancejpollard/resolve-action-tree.js
 ```
 
 ```js
-const resolveSteps = require('.')
+const resolveSteps = require('@lancejpollard/resolve-action-tree.js')
 const tree = generateActionTree()
 const steps = resolveSteps(tree)
 console.log(JSON.stringify(steps, null, 2))
